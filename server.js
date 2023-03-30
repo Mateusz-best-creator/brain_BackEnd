@@ -4,6 +4,7 @@ import cors from 'cors';
 import knex from 'knex';
 import bcrypt from 'bcrypt-nodejs';
 
+// setting from knex documentation
 const db = knex({
     client: 'pg',
     connection: {
